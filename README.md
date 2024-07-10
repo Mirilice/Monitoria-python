@@ -6,7 +6,7 @@
 - ### Exercícios e dúvidas trazidos pelos alunos
 
 ## Informações:
-- ### [Plataforma Beecrowd] (https://judge.beecrowd.com/pt)
+- ### For more information, click [here](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
 
 
 
