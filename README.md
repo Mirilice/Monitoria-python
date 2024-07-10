@@ -6,7 +6,7 @@
 - ### Exercícios e dúvidas trazidos pelos alunos
 
 ## Informações:
-- ### Plataforma Beecrowd: https://judge.beecrowd.com/pt
+- ### [Plataforma Beecrowd] (https://judge.beecrowd.com/pt)
 
 
 
