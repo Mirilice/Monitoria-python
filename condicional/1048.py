@@ -1,9 +1,18 @@
-# Leia o salário do funcionário e calcule e mostre o novo salário, 
-# bem como o valor de reajuste ganho e o índice reajustado, em percentual.
+salario = float(input())
 
-# Entrada
-# A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
+if (salario >= 0 and salario <= 400):
+    bonus = 15
+elif (salario >= 400.01 and salario <= 800):
+    bonus = 12
+elif (salario >= 800.01 and salario <= 1200):
+    bonus = 10
+elif (salario >= 1200.01 and salario <= 2000):
+    bonus = 7
+else: bonus = 4
 
-# Saída
-# Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste 
-# (ambos devem ser apresentados com 2 casas decimais) e o percentual de reajuste ganho, conforme exemplo abaixo.
+reajuste = (bonus/100)*salario
+novo_salario = salario + reajuste
+
+print(f'Novo salario: {novo_salario:.2f}')
+print(f'Reajuste ganho: {reajuste:.2f}')
+print(f'Em percentual: {bonus} %')
